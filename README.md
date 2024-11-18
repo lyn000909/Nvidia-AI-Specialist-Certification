@@ -101,7 +101,9 @@ fusion technologies such as LiDAR.
 
   and a vehicle license plate has been added below.
 
-![darklabel 1](https://github.com/user-attachments/assets/dbe31706-1630-4a4d-b4f7-6485f1bb2cd7) ![darklabel 4](https://github.com/user-attachments/assets/2814b1b2-9221-4b29-a916-294851da8c69)
+![darklabel 4](https://github.com/user-attachments/assets/87a695eb-2e16-4c66-8097-5faf8c8a49df)
+
+
 
 
 
