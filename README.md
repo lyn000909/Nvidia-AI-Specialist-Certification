@@ -71,6 +71,7 @@ fusion technologies such as LiDAR.
 1. In order to learn with 640 x 640 resolution images in YOLOv5,
    the images were first created as 640 x 640 resolution images.
 
+## <span style="color:blue"> Video Resolution Adjustment </span>
 <https://online-video-cutter.com/ko/resize-video>
 
 ![비디오 리사이저](https://github.com/user-attachments/assets/ebb7d188-355c-47f3-91e6-61c72c12c911)
