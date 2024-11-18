@@ -21,3 +21,7 @@
 # ✅ Opening background information
 
 - Recent developments in autonomous driving technology have become more sophisticated through artificial intelligence-based recognition systems that combine LiDAR and cameras. LiDAR uses laser pulses to create a 3D map of the surrounding environment, while cameras provide rich visual information to help autonomous vehicles analyze complex road conditions in real time12. This sensor fusion technology is greatly improving the safety and driving performance of vehicles and plays an important role in applications such as automatic license plate recognition (ALPR).
+
+---
+
+
