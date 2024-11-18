@@ -63,6 +63,12 @@ fusion technologies such as LiDAR.
 ## <span style="color:blue"> Image Acquisition Method </span>
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
-  
-<https://drive.google.com/file/d/1zuep3hKhj_Iwk-sGwp6mcl0TtlITRh2L/view?usp=drive_link>
-  
+
+```![다운로드](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)```
+
+## <span style="color:blue">Learning Data Extraction and Learning Annotation </span>
+
+1. In order to learn with 640 x 640 resolution images in YOLOv5,
+   the images were first created as 640 x 640 resolution images.
+
+```<https://online-video-cutter.com/ko/resize-video>```
