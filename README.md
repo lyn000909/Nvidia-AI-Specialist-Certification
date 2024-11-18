@@ -87,17 +87,21 @@ fusion technologies such as LiDAR.
 
 ![code](https://github.com/user-attachments/assets/6cef410f-bcf9-4d95-b729-8cec67256bfc)
 
+- Add vehicle classes in the yaml file and add vehicle license plate as the class name.
+
+![code 1](https://github.com/user-attachments/assets/d663c898-80e5-4a71-b6ec-68a3a8a85911)
+
 - When annotating, put the vehicle classes in classes_set so that you can see the classes set
 
   in the DarkLabel GUI, and set the name to be viewed in the GUI to vehicle license plate.
 
-![code 1](https://github.com/user-attachments/assets/d663c898-80e5-4a71-b6ec-68a3a8a85911)
-
-- Add vehicle classes in the yaml file and add vehicle license plate as the class name.
-
 ![darklabel 2](https://github.com/user-attachments/assets/fb3cb492-bf57-4077-b8c3-864958c4b68e)
 
-- 
+- You can see that classes called vehicle classes have been added to the DarkLabel program,
+
+  and a vehicle license plate has been added below.
+
+  
 
 
 
