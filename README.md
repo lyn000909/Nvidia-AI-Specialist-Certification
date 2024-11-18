@@ -1,4 +1,4 @@
-![다운로드](https://github.com/user-attachments/assets/9cf87f01-ff75-4c6a-b4c8-2560ca2e4db7)
+![NVIDIA LOGO](https://github.com/user-attachments/assets/9cf87f01-ff75-4c6a-b4c8-2560ca2e4db7)
 
 # Nvidia AI Specialist Certification
 ### <span style="color:violet">Title : Vehicle license plate recognition system using yolov5</span>
@@ -64,14 +64,18 @@ fusion technologies such as LiDAR.
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
 
-![다운로드](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)
+![DRIVE TEST](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)
 
 ## <span style="color:blue">Learning Data Extraction and Learning Annotation </span>
 
-1. In order to learn with 640 x 640 resolution images in YOLOv5,
-   the images were first created as 640 x 640 resolution images.
+- In order to learn with 640 x 640 resolution images in YOLOv5,
+  the images were first created as 640 x 640 resolution images.
 
 ## <span style="color:blue"> Video Resolution Adjustment </span>
 <https://online-video-cutter.com/ko/resize-video>
 
-![비디오 리사이저](https://github.com/user-attachments/assets/ebb7d188-355c-47f3-91e6-61c72c12c911)
+![VIDEO RESIZER](https://github.com/user-attachments/assets/ebb7d188-355c-47f3-91e6-61c72c12c911)
+
+- I used Darklabel to create edits with images based on frames, due to 640 x 640.
+[DarkLabel2.4.zip](https://github.com/user-attachments/files/17794875/DarkLabel2.4.zip)
+
