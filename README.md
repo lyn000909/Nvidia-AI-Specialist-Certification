@@ -69,6 +69,7 @@ fusion technologies such as LiDAR.
 ## <span style="color:blue">Learning Data Extraction and Learning Annotation </span>
 
 - In order to learn with 640 x 640 resolution images in YOLOv5,
+
   the images were first created as 640 x 640 resolution images.
 
 ## <span style="color:blue"> Video Resolution Adjustment </span>
@@ -86,10 +87,17 @@ fusion technologies such as LiDAR.
 
 ![code](https://github.com/user-attachments/assets/6cef410f-bcf9-4d95-b729-8cec67256bfc)
 
+- When annotating, put the vehicle classes in classes_set so that you can see the classes set
+
+  in the DarkLabel GUI, and set the name to be viewed in the GUI to vehicle license plate.
+
 ![code 1](https://github.com/user-attachments/assets/d663c898-80e5-4a71-b6ec-68a3a8a85911)
 
-- After adding the class you want to use, add a format class,
-  enter the name of the class you want to use, and save it.
+- Add vehicle classes in the yaml file and add vehicle license plate as the class name.
+
+![darklabel 2](https://github.com/user-attachments/assets/fb3cb492-bf57-4077-b8c3-864958c4b68e)
+
+- 
 
 
 
