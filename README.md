@@ -3,7 +3,7 @@
 # Nvidia AI Specialist Certification
 ## Title : Vehicle license plate recognition system using yolov5
 ---
-# ✅ OverView of the Project
+' # ✅ OverView of the Project
 
 - Opening background information
 
@@ -15,5 +15,5 @@
 
 - Current limitations
 
-- Literature review
+- Literature review '
 ---
