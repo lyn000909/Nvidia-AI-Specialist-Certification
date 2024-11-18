@@ -73,4 +73,4 @@ fusion technologies such as LiDAR.
 
 <https://online-video-cutter.com/ko/resize-video>
 
-
+![비디오 리사이저](https://github.com/user-attachments/assets/ebb7d188-355c-47f3-91e6-61c72c12c911)
