@@ -63,5 +63,6 @@ fusion technologies such as LiDAR.
 ## <span style="color:blue"> Image Acquisition Method </span>
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
-
+  
+<https://drive.google.com/file/d/1zuep3hKhj_Iwk-sGwp6mcl0TtlITRh2L/view?usp=drive_link>
   
