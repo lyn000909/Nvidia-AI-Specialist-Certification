@@ -55,8 +55,13 @@ are highly likely to cause errors in existing systems.
 ---
 ## Literature review
 ```
-Because there are limitations such as dependency issues on large-scale datasets and poor performance
+✅ Because there are limitations such as dependency issues on large-scale datasets and poor performance
 in various environments, improvements are needed by securing more datasets and using additional sensor
 fusion technologies such as LiDAR.
 ```
 ---
+## <span style="color:"blue"> Image Acquisition Method </span>
+- The parking lot black box video was filmed, and additional video
+  was referenced from the Seoul road test driving video.
+
+  
