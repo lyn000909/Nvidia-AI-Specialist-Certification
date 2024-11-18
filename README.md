@@ -3,8 +3,8 @@
 # Nvidia AI Specialist Certification
 ## <span style="color:red"> Title : Vehicle license plate recognition system using yolov5 
 </span>
----
 
+---
 # ✅ OverView of the Project
 
     - Opening background information
