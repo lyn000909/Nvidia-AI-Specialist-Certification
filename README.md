@@ -1,6 +1,6 @@
-#Nvidia AI Specialist Certification
+# Nvidia AI Specialist Certification
 
-OverView of the Project
+## OverView of the Project
 
 - Opening background information
 
