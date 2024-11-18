@@ -123,6 +123,11 @@ fusion technologies such as LiDAR.
     
 - You can see that labeled text documents and image files are in the labels folder and the images folder, respectively.
 
+---
+
+## NVIDIA JETSON NANO LEANING COURSE
+
+
   
 
 
