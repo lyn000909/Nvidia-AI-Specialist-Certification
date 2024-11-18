@@ -64,42 +64,76 @@ fusion technologies such as LiDAR.
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
 
+
+
 [DRIVE TEST](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)
 
+
+
 ## <span style="color:blue">Learning Data Extraction and Learning Annotation </span>
+
+
 
 - In order to learn with 640 x 640 resolution images in YOLOv5,
 
   the images were first created as 640 x 640 resolution images.
 
+
+
 ## <span style="color:blue"> Video Resolution Adjustment </span>
+
+
 <https://online-video-cutter.com/ko/resize-video>
+
+
 
 ![비디오 리사이저](https://github.com/user-attachments/assets/ad1b5ca9-80a2-4b98-8716-a5ba8fd9276b)
 
+
+
 - I used Darklabel to create edits with images based on frames, due to 640 x 640.
+
+
 
 [DarkLabel2.4.zip](https://github.com/user-attachments/files/17794875/DarkLabel2.4.zip)
 
+
+
 ![darklabel 5](https://github.com/user-attachments/assets/1769e2b0-84ba-4854-beaa-2e4dd4cecf4c)
+
+
 
 - First, add classes through darklabel.yml before annotation.
 
+
+
 ![code](https://github.com/user-attachments/assets/02742552-ec7a-46ca-a247-6e4b59594136)
+
+
 
 - Add vehicle classes in the yaml file and add vehicle license plate as the class name.
 
+
+
 ![code 1](https://github.com/user-attachments/assets/6bbd6ffb-0b4b-434d-8fa1-1358e8020bb3)
+
+
 
 - When annotating, put the vehicle classes in classes_set so that you can see the classes set
 
   in the DarkLabel GUI, and set the name to be viewed in the GUI to vehicle license plate.
 
+
+
 ![darklabel 2](https://github.com/user-attachments/assets/fb3cb492-bf57-4077-b8c3-864958c4b68e)
+
+
 
 - You can see that classes called vehicle classes have been added to the DarkLabel program,
 
   and a vehicle license plate has been added below.
+
+
 
 ![darklabel 4](https://github.com/user-attachments/assets/c467f5de-d811-47d4-902a-5e37352298ac)
 
