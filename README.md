@@ -64,7 +64,7 @@ fusion technologies such as LiDAR.
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
 
-![DRIVE TEST](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)
+[DRIVE TEST](https://github.com/user-attachments/assets/9bfaefa1-c508-4fa7-a04f-94441b3b1514)
 
 ## <span style="color:blue">Learning Data Extraction and Learning Annotation </span>
 
@@ -77,5 +77,10 @@ fusion technologies such as LiDAR.
 ![VIDEO RESIZER](https://github.com/user-attachments/assets/ebb7d188-355c-47f3-91e6-61c72c12c911)
 
 - I used Darklabel to create edits with images based on frames, due to 640 x 640.
+
 [DarkLabel2.4.zip](https://github.com/user-attachments/files/17794875/DarkLabel2.4.zip)
+
+![darklabel 5](https://github.com/user-attachments/assets/1769e2b0-84ba-4854-beaa-2e4dd4cecf4c)
+
+- 
 
