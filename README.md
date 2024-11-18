@@ -75,7 +75,7 @@ fusion technologies such as LiDAR.
 ## <span style="color:blue"> Video Resolution Adjustment </span>
 <https://online-video-cutter.com/ko/resize-video>
 
-![darklabel](https://github.com/user-attachments/assets/5540b6c2-c6fd-45d2-8a48-8a908dc08318)
+![비디오 리사이저](https://github.com/user-attachments/assets/ad1b5ca9-80a2-4b98-8716-a5ba8fd9276b)
 
 - I used Darklabel to create edits with images based on frames, due to 640 x 640.
 
@@ -101,7 +101,7 @@ fusion technologies such as LiDAR.
 
   and a vehicle license plate has been added below.
 
-![darklabel 4](https://github.com/user-attachments/assets/87a695eb-2e16-4c66-8097-5faf8c8a49df)
+![darklabel 4](https://github.com/user-attachments/assets/c467f5de-d811-47d4-902a-5e37352298ac)
 
 
 
