@@ -119,7 +119,8 @@ fusion technologies such as LiDAR.
 
   it is converted to an image through as images, and the labeled value is saved through GT save.
 
-![labels](https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117)
+
+<img src ="https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117" width="50%" height="50%">
 
 ![images](https://github.com/user-attachments/assets/ac618c57-f31d-4164-99e1-741cfd537b6a)
 
