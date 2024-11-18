@@ -85,11 +85,11 @@ fusion technologies such as LiDAR.
 
 - First, add classes through darklabel.yml before annotation.
 
-![code](https://github.com/user-attachments/assets/6cef410f-bcf9-4d95-b729-8cec67256bfc)
+![code](https://github.com/user-attachments/assets/02742552-ec7a-46ca-a247-6e4b59594136)
 
 - Add vehicle classes in the yaml file and add vehicle license plate as the class name.
 
-![code 1](https://github.com/user-attachments/assets/d663c898-80e5-4a71-b6ec-68a3a8a85911)
+![code 1](https://github.com/user-attachments/assets/6bbd6ffb-0b4b-434d-8fa1-1358e8020bb3)
 
 - When annotating, put the vehicle classes in classes_set so that you can see the classes set
 
