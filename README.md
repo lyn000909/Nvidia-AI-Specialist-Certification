@@ -1,4 +1,4 @@
-![initial](https://user-images.githubusercontent.com/9cf87f01-ff75-4c6a-b4c8-2560ca2e4db7/.PNG)
+![다운로드](https://github.com/user-attachments/assets/9cf87f01-ff75-4c6a-b4c8-2560ca2e4db7)
 
 # Nvidia AI Specialist Certification
 ## Title : Vehicle license plate recognition system using yolov5
