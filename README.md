@@ -24,5 +24,13 @@ is significantly improving vehicle safety and driving performance, and is playin
 applications such as Automatic License Plate Recognition (ALPR).
 ```
 ---
-
+## General description of the current project
+```
+This project aims to develop a vehicle license plate recognition system using YOLOv5.
+The key is to enable autonomous vehicles to recognize license plates on the road in real time
+and perform various functions such as detecting traffic violations, tracking stolen vehicles,
+and automatic parking management.
+```
+---
+## Proposed idea for enhancements to the project
 
