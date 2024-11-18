@@ -82,5 +82,14 @@ fusion technologies such as LiDAR.
 
 ![darklabel 5](https://github.com/user-attachments/assets/1769e2b0-84ba-4854-beaa-2e4dd4cecf4c)
 
-- 
+- After unzipping the zip file, you need to open the darklabel.yaml file and add the class.
+
+![code](https://github.com/user-attachments/assets/6cef410f-bcf9-4d95-b729-8cec67256bfc)
+
+![code 1](https://github.com/user-attachments/assets/d663c898-80e5-4a71-b6ec-68a3a8a85911)
+
+- After adding the class you want to use, add a format class,
+  enter the name of the class you want to use, and save it.
+
+
 
