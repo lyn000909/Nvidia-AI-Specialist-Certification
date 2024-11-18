@@ -60,7 +60,7 @@ in various environments, improvements are needed by securing more datasets and u
 fusion technologies such as LiDAR.
 ```
 ---
-## <span style="color:"blue"> Image Acquisition Method </span>
+## <span style="color:blue"> Image Acquisition Method </span>
 - The parking lot black box video was filmed, and additional video
   was referenced from the Seoul road test driving video.
 
