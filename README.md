@@ -332,7 +332,7 @@ You can change this path to any directory containing images you want to analyze.
 ---
 
 
-## conclusion
+## Conclusion
 
 ```
 ✅ The values ​​learned using the vehicle license plate maintained a value of 0.8 to 0.9, showing high accuracy.
