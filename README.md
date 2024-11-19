@@ -335,7 +335,7 @@ You can change this path to any directory containing images you want to analyze.
 ## conclusion
 
 ```
-- The values ​​learned using the vehicle license plate maintained a value of 0.8 to 0.9, showing high accuracy.
+✅ The values ​​learned using the vehicle license plate maintained a value of 0.8 to 0.9, showing high accuracy.
 
 However, as it recognizes similar white bricks and lights, various license plates and a lot of data are needed.
 
