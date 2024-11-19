@@ -140,7 +140,7 @@ fusion technologies such as LiDAR.
 
 - Insert images and labeled values ​​into the images and labels folder in the Train folder to be trained.
 
-<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/f2e2cd0c-e7a8-4b14-9dc8-1e16961c585c" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/13e6cebd-11cd-4f21-abfa-d0e262cb428e" width="50%" height="50%">
 
 
 
