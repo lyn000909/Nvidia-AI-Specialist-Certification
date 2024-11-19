@@ -249,4 +249,12 @@ Lowering the confidence threshold will result in more detections, but may also i
 In this case, it's pointing to the Train/images directory, which likely contains the images you used for training. 
 
 You can change this path to any directory containing images you want to analyze.
+---
 
+
+## learning outcomes
+
+
+PR_Curve
+
+![PR_curve](https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b)
