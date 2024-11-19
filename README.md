@@ -250,7 +250,7 @@ yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a st
 
 - learning file
 
-`[exp.zip](https://github.com/user-attachments/files/17817104/exp.zip)`
+    - [exp.zip](https://github.com/user-attachments/files/17817104/exp.zip)
 
 ---
 
