@@ -132,14 +132,15 @@ fusion technologies such as LiDAR.
   Google Colaboratory was used and learning was conducted by linking to Google Drive.
 
   
-``` Google Colaboratory.ipynb
+``` ipynb
 !git clone https://github.com/ultralytics/yolov5
 %cd yolov5
 %pip install -qr requirements.txt
 ```
----
 
+- Insert images and labeled values ​​into the images and labels folder in the Train folder to be trained.
 
+<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/f2e2cd0c-e7a8-4b14-9dc8-1e16961c585c" width="50%" height="50%">
 
 
 
