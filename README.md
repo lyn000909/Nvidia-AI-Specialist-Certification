@@ -249,9 +249,8 @@ Lowering the confidence threshold will result in more detections, but may also i
 In this case, it's pointing to the Train/images directory, which likely contains the images you used for training. 
 
 You can change this path to any directory containing images you want to analyze.
+
 ---
-
-
 ## learning outcomes
 
 
