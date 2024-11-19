@@ -257,4 +257,5 @@ You can change this path to any directory containing images you want to analyze.
 
 PR_Curve
 
-![PR_curve](https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b)
+<img src="https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b" width="75%" height="75%">
+
