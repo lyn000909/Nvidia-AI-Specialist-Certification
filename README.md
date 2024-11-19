@@ -194,18 +194,57 @@ def Create_npy(imagespath, imgsize, ext) :
 - Learning is conducted based on `data.yaml`.
 
 ```ipynb
-!python train.py  --img 512 --batch 16 --epochs 300 --data /content/drive/MyDrive/yolov5/yolov5/data.yaml --weights yolov5n.pt --cache
+!python train.py  --img 512 --batch 16 --epochs 300 --data /content/drive/MyDrive/yolov5_2/yolov5/data.yaml --weights yolov5n.pt --cache
 ```
 
--- `img 512` : This argument sets the image size to 512x512 pixels for training and inference. YOLOv5 models are trained on square images, and this parameter determines the resolution.
+--`img 512` : This argument sets the image size to 512x512 pixels for training and inference. 
 
--- `batch 16` : This specifies the batch size for training, meaning 16 images will be processed simultaneously in each iteration. Batch size can impact training speed and memory usage.
+YOLOv5 models are trained on square images, and this parameter determines the resolution.
 
--- `epochs 300` : This sets the number of training epochs to 300. An epoch represents one complete pass through the entire training dataset.
+--`batch 16` : This specifies the batch size for training, meaning 16 images will be processed simultaneously in each iteration. 
 
--- `data /file path/data.yaml` : This argument points to the data.yaml file, which contains the configuration for your dataset, including the paths to your training and validation images and labels.
+Batch size can impact training speed and memory usage.
 
--- `weights yolov5n.pt` : This specifies the initial weights to use for the model. yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a starting point for faster training.
+--`epochs 300` : This sets the number of training epochs to 300. An epoch represents one complete pass through the entire training dataset.
 
--- `cache` : This option enables caching of images to potentially speed up training, especially if you have a large dataset.
-  
+--`data /content/drive/MyDrive/yolov5/yolov5_2/data.yaml` : This argument points to the data.yaml file, which contains the configuration for your dataset, 
+
+including the paths to your training and validation images and labels.
+
+--`weights yolov5n.pt` : This specifies the initial weights to use for the model. 
+
+yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a starting point for faster training.
+
+--`cache` : This option enables caching of images to potentially speed up training, especially if you have a large dataset.
+
+
+- When learning is complete, run the code for data verification.
+
+```ipynb
+!python detect.py --weights /content/drive/MyDrive/yolov5_2/yolov5/runs/train/exp5/weights/best.pt --img 512 --conf 0.1 --source /content/drive/MyDrive/yolov5_2/yolov5/Train/images
+```
+
+--`!python detect.py` : This part calls the Python interpreter to execute the detect.py script, 
+
+which is responsible for running inference using a YOLOv5 model.
+
+--`weights /content/drive/MyDrive/yolov5/yolov5/runs/train/exp5/weights/best.pt` : This argument specifies the path to the trained model weights file (best.pt).
+
+This file contains the learned parameters of the model, allowing it to detect objects. 
+
+It's likely that you trained the model in a previous step (exp5) and saved the best performing weights to this location.
+
+--`img 512` : This argument sets the image size for inference to 512x512 pixels. This should match the image size used during training to ensure optimal performance.
+
+--`conf 0.1` : This sets the confidence threshold for object detection. The model will only output detections with a confidence score of 0.1 or higher. 
+
+This value can be adjusted to control the sensitivity of the detector. 
+
+Lowering the confidence threshold will result in more detections, but may also increase the number of false positives.
+
+--`source /content/drive/MyDrive/yolov5/yolov5/Train/images` : This argument specifies the path to the input images or directory of images that you want to run inference on. 
+
+In this case, it's pointing to the Train/images directory, which likely contains the images you used for training. 
+
+You can change this path to any directory containing images you want to analyze.
+
