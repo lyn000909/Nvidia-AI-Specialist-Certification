@@ -219,7 +219,44 @@ yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a st
 --`cache` : This option enables caching of images to potentially speed up training, especially if you have a large dataset.
 
 
-- When learning is complete, run the code for data verification.
+## learning results
+
+
+- PR_Curve / F1_Curve
+
+<img src="https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/157c0bc7-a822-468c-97c5-de6f4bc143e8" width="50%" height="50%">
+
+- P_Curve / R_Curve
+
+<img src="https://github.com/user-attachments/assets/684c724f-9c31-4f66-9ff8-9c8480c0e879" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/2c0516dd-aaaa-4fa6-a09e-f9d152d9613f" width="50%" height="50%">
+
+- confusion_matrix
+
+<img src="https://github.com/user-attachments/assets/93f2e9eb-11d2-48b0-93e3-0fbfb20951cf" width="50%" height="50%">
+
+- labels / labels_correlogram
+
+<img src="https://github.com/user-attachments/assets/206fca60-0bd9-4437-a5c6-c3e8054ef091" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/808d3efa-fbda-4fc6-804c-b564912e8d31" width="50%" height="50%">
+
+
+- results
+
+![results](https://github.com/user-attachments/assets/2bc6a3e6-21d1-477b-af9a-68a561590eb0)
+
+
+- val_batch1_pred / val_batch2_pred
+
+<img src="https://github.com/user-attachments/assets/8b1b8408-3227-4902-90ab-ab212bfb9274" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/27cf293f-9ebf-40c8-ace4-3812761e4559" width="50%" height="50%">
+
+- learning file
+
+`[exp.zip](https://github.com/user-attachments/files/17817104/exp.zip)`
+
+---
+
+## detect results
+
+- After completing training, run `detect.py` based on the image used for training.
 
 ```ipynb
 !python detect.py --weights /content/drive/MyDrive/yolov5_2/yolov5/runs/train/exp5/weights/best.pt --img 512 --conf 0.1 --source /content/drive/MyDrive/yolov5_2/yolov5/Train/images
@@ -250,32 +287,14 @@ In this case, it's pointing to the Train/images directory, which likely contains
 
 You can change this path to any directory containing images you want to analyze.
 
----
-## learning outcomes
 
 
-- PR_Curve / F1_Curve
 
-<img src="https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/157c0bc7-a822-468c-97c5-de6f4bc143e8" width="50%" height="50%">
-
-- P_Curve / R_Curve
-
-<img src="https://github.com/user-attachments/assets/684c724f-9c31-4f66-9ff8-9c8480c0e879" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/2c0516dd-aaaa-4fa6-a09e-f9d152d9613f" width="50%" height="50%">
-
-- confusion_matrix
-
-<img src="https://github.com/user-attachments/assets/93f2e9eb-11d2-48b0-93e3-0fbfb20951cf" width="50%" height="50%">
-
-- labels / labels_correlogram
-
-<img src="https://github.com/user-attachments/assets/206fca60-0bd9-4437-a5c6-c3e8054ef091" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/808d3efa-fbda-4fc6-804c-b564912e8d31" width="50%" height="50%">
+- Image produced through detect results
 
 
-- results
+![00000266](https://github.com/user-attachments/assets/ce062078-9fda-4928-bac8-44230bb4bc7c)
+![00000446](https://github.com/user-attachments/assets/c3a3379e-4332-4848-b0fa-83fc4e9e254e)
+![00000612](https://github.com/user-attachments/assets/3ea49621-facf-41e4-9777-f9d78dacc795)
 
-![results](https://github.com/user-attachments/assets/2bc6a3e6-21d1-477b-af9a-68a561590eb0)
-
-
-- val_batch1_pred / val_batch2_pred
-
-<img src="https://github.com/user-attachments/assets/8b1b8408-3227-4902-90ab-ab212bfb9274" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/27cf293f-9ebf-40c8-ace4-3812761e4559" width="50%" height="50%">
+  
