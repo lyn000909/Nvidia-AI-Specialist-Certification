@@ -132,7 +132,7 @@ fusion technologies such as LiDAR.
   Google Colaboratory was used and learning was conducted by linking to Google Drive.
 
   
-``` ipynb
+``` Google Colaboratory.ipynb
 !git clone https://github.com/ultralytics/yolov5
 %cd yolov5
 %pip install -qr requirements.txt
