@@ -119,7 +119,7 @@ fusion technologies such as LiDAR.
 
   it is converted to an image through as images, and the labeled value is saved through GT save.
 
-<img src="https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117" width="50%" height="50%"> <img src="https://github.com/user-attachments/assets/ac618c57-f31d-4164-99e1-741cfd537b6a" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/ac618c57-f31d-4164-99e1-741cfd537b6a" width="50%" height="50%">
     
 - You can see that labeled text documents and image files are in the labels folder and the images folder, respectively.
 
@@ -127,12 +127,12 @@ fusion technologies such as LiDAR.
 
 ## NVIDIA JETSON NANO LEANING COURSE
 
-- To install YOLOv5, clone the repository and install the packages specified in requirements.txt.
+- To install YOLOv5, clone the repository and install the packages specified in `requirements.txt`.
 
   Google Colaboratory was used and learning was conducted by linking to Google Drive.
 
   
-``` ipynb
+```ipynb
 !git clone https://github.com/ultralytics/yolov5
 %cd yolov5
 %pip install -qr requirements.txt
@@ -140,7 +140,72 @@ fusion technologies such as LiDAR.
 
 - Insert images and labeled values ​​into the images and labels folder in the Train folder to be trained.
 
-<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"> <img src="https://github.com/user-attachments/assets/13e6cebd-11cd-4f21-abfa-d0e262cb428e" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/13e6cebd-11cd-4f21-abfa-d0e262cb428e" width="50%" height="50%">
 
 
+- After preprocessing the image files in imagespath, save them as a single .npy file.
 
+```ipynb
+import numpy as np
+import tensorflow as tf
+import os
+from PIL import Image
+from tensorflow.python.eager.context import eager_mode
+
+def _preproc(image, output_height=512, output_width=512, resize_side=512):
+    ''' imagenet-standard: aspect-preserving resize to 256px smaller-side, then central-crop to 224px'''
+    with eager_mode():
+        h, w = image.shape[0], image.shape[1]
+        scale = tf.cond(tf.less(h, w), lambda: resize_side / h, lambda: resize_side / w)
+        resized_image = tf.compat.v1.image.resize_bilinear(tf.expand_dims(image, 0), [int(h*scale), int(w*scale)])
+        cropped_image = tf.compat.v1.image.resize_with_crop_or_pad(resized_image, output_height, output_width)
+        return tf.squeeze(cropped_image)
+
+def Create_npy(imagespath, imgsize, ext) :
+    images_list = [img_name for img_name in os.listdir(imagespath) if
+                os.path.splitext(img_name)[1].lower() == '.'+ext.lower()]
+    calib_dataset = np.zeros((len(images_list), imgsize, imgsize, 3), dtype=np.float32)
+
+    for idx, img_name in enumerate(sorted(images_list)):
+        img_path = os.path.join(imagespath, img_name)
+        try:
+            if os.path.getsize(img_path) == 0:
+                print(f"Error: {img_path} is empty.")
+                continue
+
+            img = Image.open(img_path)
+            img = img.convert("RGB")
+            img_np = np.array(img)
+
+            img_preproc = _preproc(img_np, imgsize, imgsize, imgsize)
+            calib_dataset[idx,:,:,:] = img_preproc.numpy().astype(np.uint8)
+            print(f"Processed image {img_path}")
+
+        except Exception as e:
+            print(f"Error processing image {img_path}: {e}")
+
+    np.save('calib_set.npy', calib_dataset)
+```
+
+- Edit the `data.yaml` file to match the classes.
+
+![code](https://github.com/user-attachments/assets/9bd9a091-8062-472c-b0e5-5adf6d420aab)
+
+- Learning is conducted based on `data.yaml`.
+
+```ipynb
+!python train.py  --img 512 --batch 16 --epochs 300 --data /content/drive/MyDrive/yolov5/yolov5/data.yaml --weights yolov5n.pt --cache
+```
+
+-- `img 512` : This argument sets the image size to 512x512 pixels for training and inference. YOLOv5 models are trained on square images, and this parameter determines the resolution.
+
+-- `batch 16` : This specifies the batch size for training, meaning 16 images will be processed simultaneously in each iteration. Batch size can impact training speed and memory usage.
+
+-- `epochs 300` : This sets the number of training epochs to 300. An epoch represents one complete pass through the entire training dataset.
+
+-- `data /file path/data.yaml` : This argument points to the data.yaml file, which contains the configuration for your dataset, including the paths to your training and validation images and labels.
+
+-- `weights yolov5n.pt` : This specifies the initial weights to use for the model. yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a starting point for faster training.
+
+-- `cache` : This option enables caching of images to potentially speed up training, especially if you have a large dataset.
+  
