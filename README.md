@@ -306,7 +306,7 @@ You can change this path to any directory containing images you want to analyze.
 ![00000612](https://github.com/user-attachments/assets/3ea49621-facf-41e4-9777-f9d78dacc795)
 
 
-- Learning Outcome Image
+- Learning Results Images
  
     - <https://drive.google.com/drive/folders/1mRn3iXVgNcwv4lDLyZ3SSAaGnSZaqwNd?usp=drive_link>
  
@@ -323,5 +323,25 @@ You can change this path to any directory containing images you want to analyze.
 
 
 <https://github.com/user-attachments/assets/7fbd4884-f23a-4450-8fbf-f739a131ff13>
-  
 
+- Learning Results Videos
+    - <https://drive.google.com/drive/folders/1ceDayoJZwuJBw2DGd_66w1x5YHSbzNAg?usp=drive_link>
+    - <https://drive.google.com/drive/folders/1cpIWT83J9RTWp3P_iqjMXLlou1uAx3C0?usp=drive_link>
+ 
+
+---
+
+
+## conclusion
+
+```
+- The values ​​learned using the vehicle license plate maintained a value of 0.8 to 0.9, showing high accuracy.
+
+However, as it recognizes similar white bricks and lights, various license plates and a lot of data are needed.
+
+However, the vehicle license plate image used for learning maintained a value of 0.8 to 0.9, showing high accuracy,
+
+so training the model with more diverse license plate photos and angle data and applying
+
+appropriate data processing resulted in improved values. You will get it.
+```
