@@ -127,9 +127,17 @@ fusion technologies such as LiDAR.
 
 ## NVIDIA JETSON NANO LEANING COURSE
 
+- To install YOLOv5, clone the repository and install the packages specified in requirements.txt.
+
+  Google Colaboratory was used and learning was conducted by linking to Google Drive.
 
   
-
+``` ipynb
+!git clone https://github.com/ultralytics/yolov5
+%cd yolov5
+%pip install -qr requirements.txt
+```
+---
 
 
 
