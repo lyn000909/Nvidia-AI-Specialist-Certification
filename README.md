@@ -254,9 +254,9 @@ You can change this path to any directory containing images you want to analyze.
 ## learning outcomes
 
 
-PR_Curve
+PR_Curve / F1_Curve
 
-<img src="https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/9cb71cfd-7045-4850-81b1-5e4251046d5b" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/157c0bc7-a822-468c-97c5-de6f4bc143e8" width="50%" height="50%">
 
 P_Curve / R_Curve
 
