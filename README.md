@@ -1,7 +1,7 @@
 ![NVIDIA LOGO](https://github.com/user-attachments/assets/9cf87f01-ff75-4c6a-b4c8-2560ca2e4db7)
 
 # Nvidia AI Specialist Certification
-### <span style="color:violet">Title : Vehicle license plate recognition system using yolov5</span>
+### <span style="color:violet">Title : Vehicle license plate recognition system using YOLOv5</span>
 ---
 ## ✅ OverView of the Project
     - Opening background information
@@ -271,8 +271,11 @@ You can change this path to any directory containing images you want to analyze.
 <img src="https://github.com/user-attachments/assets/206fca60-0bd9-4437-a5c6-c3e8054ef091" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/808d3efa-fbda-4fc6-804c-b564912e8d31" width="50%" height="50%">
 
 
-
-
 - results
 
 ![results](https://github.com/user-attachments/assets/2bc6a3e6-21d1-477b-af9a-68a561590eb0)
+
+
+- val_batch1_pred / val_batch2_pred
+
+<img src="https://github.com/user-attachments/assets/8b1b8408-3227-4902-90ab-ab212bfb9274" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/27cf293f-9ebf-40c8-ace4-3812761e4559" width="50%" height="50%">
