@@ -197,6 +197,7 @@ def Create_npy(imagespath, imgsize, ext) :
 !python train.py  --img 512 --batch 16 --epochs 300 --data /content/drive/MyDrive/yolov5_2/yolov5/data.yaml --weights yolov5n.pt --cache
 ```
 
+
 --`img 512` : This argument sets the image size to 512x512 pixels for training and inference. 
 
 YOLOv5 models are trained on square images, and this parameter determines the resolution.
@@ -223,6 +224,7 @@ yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a st
 ```ipynb
 !python detect.py --weights /content/drive/MyDrive/yolov5_2/yolov5/runs/train/exp5/weights/best.pt --img 512 --conf 0.1 --source /content/drive/MyDrive/yolov5_2/yolov5/Train/images
 ```
+
 
 --`!python detect.py` : This part calls the Python interpreter to execute the detect.py script, 
 
