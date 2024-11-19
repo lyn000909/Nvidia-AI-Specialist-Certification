@@ -268,11 +268,11 @@ yolov5n.pt represents a pre-trained YOLOv5 nano model, which can be used as a st
 
 which is responsible for running inference using a YOLOv5 model.
 
---`weights /content/drive/MyDrive/yolov5/yolov5/runs/train/exp5/weights/best.pt` : This argument specifies the path to the trained model weights file (best.pt).
+--`weights /content/drive/MyDrive/yolov5/yolov5/runs/train/exp5/weights/best.pt` : This argument specifies the path 
 
+to the trained model weights file (best.pt).
 
 This file contains the learned parameters of the model, allowing it to detect objects. 
-
 
 It's likely that you trained the model in a previous step (exp5) and saved the best performing weights to this location.
 
@@ -280,15 +280,17 @@ It's likely that you trained the model in a previous step (exp5) and saved the b
 
 This should match the image size used during training to ensure optimal performance.
 
+--`conf 0.1` : This sets the confidence threshold for object detection. 
 
---`conf 0.1` : This sets the confidence threshold for object detection. The model will only output detections with a confidence score of 0.1 or higher. 
+The model will only output detections with a confidence score of 0.1 or higher. 
 
 This value can be adjusted to control the sensitivity of the detector. 
 
 Lowering the confidence threshold will result in more detections, but may also increase the number of false positives.
 
+--`source /content/drive/MyDrive/yolov5/yolov5/Train/images` : This argument specifies the path to the input 
 
---`source /content/drive/MyDrive/yolov5/yolov5/Train/images` : This argument specifies the path to the input images or directory of images that you want to run inference on. 
+images or directory of images that you want to run inference on. 
 
 In this case, it's pointing to the Train/images directory, which likely contains the images you used for training. 
 
