@@ -119,7 +119,7 @@ fusion technologies such as LiDAR.
 
   it is converted to an image through as images, and the labeled value is saved through GT save.
 
-<img src="https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/ac618c57-f31d-4164-99e1-741cfd537b6a" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/04b3735c-1215-4ccb-abef-f59a1bb37117" width="50%" height="50%"> <img src="https://github.com/user-attachments/assets/ac618c57-f31d-4164-99e1-741cfd537b6a" width="50%" height="50%">
     
 - You can see that labeled text documents and image files are in the labels folder and the images folder, respectively.
 
@@ -140,7 +140,7 @@ fusion technologies such as LiDAR.
 
 - Insert images and labeled values ​​into the images and labels folder in the Train folder to be trained.
 
-<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"><img src="https://github.com/user-attachments/assets/13e6cebd-11cd-4f21-abfa-d0e262cb428e" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/f95c88df-88cf-4d58-87cc-748065ae68e3" width="50%" height="50%"> <img src="https://github.com/user-attachments/assets/13e6cebd-11cd-4f21-abfa-d0e262cb428e" width="50%" height="50%">
 
 
 
