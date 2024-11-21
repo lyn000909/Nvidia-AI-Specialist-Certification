@@ -325,7 +325,8 @@ You can change this path to any directory containing images you want to analyze.
 <https://github.com/user-attachments/assets/7fbd4884-f23a-4450-8fbf-f739a131ff13>
 
 - Learning Results Videos
-    - <https://drive.google.com/drive/folders/10-XUSGHimrMCnMUEIM24XDyWcOT81_fh?usp=drive_link>
+    - <https://drive.google.com/drive/folders/1ceDayoJZwuJBw2DGd_66w1x5YHSbzNAg?usp=sharing>
+    - <https://drive.google.com/drive/folders/1cpIWT83J9RTWp3P_iqjMXLlou1uAx3C0?usp=sharing>
  
 
 ---
