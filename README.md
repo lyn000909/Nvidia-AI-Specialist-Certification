@@ -329,6 +329,8 @@ You can change this path to any directory containing images you want to analyze.
     - <https://drive.google.com/drive/folders/1cpIWT83J9RTWp3P_iqjMXLlou1uAx3C0?usp=sharing>
  
 
+- Jetson Nano Results Videos
+    - <https://drive.google.com/drive/folders/1exfL7eDwrwwNMpVQdVlRtDezvtdudr-M?usp=drive_link>
 ---
 
 
